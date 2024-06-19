@@ -25,5 +25,9 @@ function cal() {
       result = "Invalid operator";
   }
 
-  document.getElementById("output").innerText = parseInt(result);
+  let outputLabel = document.getElementById("output");
+  outputLabel.innerText = result;
+
+  outputLabel.style.justifyContent = "center";
+  outputLabel.style.textAlign = "center";
 }
