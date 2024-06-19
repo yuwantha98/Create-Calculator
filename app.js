@@ -1,8 +1,8 @@
 function cal() {
-  const num1 = document.getElementById("no1").value;
-  const num2 = document.getElementById("no2").value;
+  let num1 = parseInt(document.getElementById("no1").value);
+  let num2 = parseInt(document.getElementById("no2").value);
 
-  const sum = num1 + num2;
+  let sum = num1 + num2;
 
-  document.getElementById("output").innerText = "Result: " + sum;
+  document.getElementById("output").innerText = parseInt(sum);
 }
